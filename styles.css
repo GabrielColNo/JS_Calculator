@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(z-burger-bacon-cheese-dog.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .calculator {
+    background-image: url(letuce.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  #display {
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(bacon.jpg);
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: right;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    background: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ccc;
+  }
+  
